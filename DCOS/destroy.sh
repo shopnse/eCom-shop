@@ -1,13 +1,13 @@
 #!/bin/bash
 
-dcos marathon app remove robotshop/cart     
-dcos marathon app remove robotshop/catalogue
-dcos marathon app remove robotshop/dispatch 
-dcos marathon app remove robotshop/mongodb  
-dcos marathon app remove robotshop/mysql    
-dcos marathon app remove robotshop/payment  
-dcos marathon app remove robotshop/rabbitmq 
-dcos marathon app remove robotshop/redis    
-dcos marathon app remove robotshop/shipping 
-dcos marathon app remove robotshop/user     
-dcos marathon app remove robotshop/web      
+dcos marathon app remove eComshop/cart     
+dcos marathon app remove eComshop/catalogue
+dcos marathon app remove eComshop/dispatch 
+dcos marathon app remove eComshop/mongodb  
+dcos marathon app remove eComshop/mysql    
+dcos marathon app remove eComshop/payment  
+dcos marathon app remove eComshop/rabbitmq 
+dcos marathon app remove eComshop/redis    
+dcos marathon app remove eComshop/shipping 
+dcos marathon app remove eComshop/user     
+dcos marathon app remove eComshop/web      
