@@ -1,5 +1,5 @@
 {
-    "id": "/robotshop/web",
+    "id": "/eComshop/web",
     "backoffFactor": 1.15,
     "backoffSeconds": 30,
     "container": {
@@ -15,7 +15,7 @@
       "type": "DOCKER",
       "volumes": [],
       "docker": {
-        "image": "robotshop/rs-web:latest",
+        "image": "eComshop/rs-web:latest",
         "forcePullImage": false,
         "privileged": false,
         "parameters": []
@@ -24,11 +24,11 @@
     "cpus": 0.1,
     "disk": 0,
     "env": {
-      "PAYMENT_HOST": "robotshoppayment.marathon.l4lb.thisdcos.directory",
-      "USER_HOST": "robotshopuser.marathon.l4lb.thisdcos.directory",
-      "CART_HOST": "robotshopcart.marathon.l4lb.thisdcos.directory",
-      "CATALOGUE_HOST": "robotshopcatalogue.marathon.l4lb.thisdcos.directory",
-      "SHIPPING_HOST": "robotshopshipping.marathon.l4lb.thisdcos.directory"
+      "PAYMENT_HOST": "eComshoppayment.marathon.l4lb.thisdcos.directory",
+      "USER_HOST": "eComshopuser.marathon.l4lb.thisdcos.directory",
+      "CART_HOST": "eComshopcart.marathon.l4lb.thisdcos.directory",
+      "CATALOGUE_HOST": "eComshopcatalogue.marathon.l4lb.thisdcos.directory",
+      "SHIPPING_HOST": "eComshopshipping.marathon.l4lb.thisdcos.directory"
     },
     "instances": 1,
     "maxLaunchDelaySeconds": 900,
