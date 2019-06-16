@@ -1,5 +1,5 @@
 {
-    "id": "/robotshop/dispatch",
+    "id": "/eComshop/dispatch",
     "backoffFactor": 1.15,
     "backoffSeconds": 30,
     "container": {
@@ -7,7 +7,7 @@
       "type": "DOCKER",
       "volumes": [],
       "docker": {
-        "image": "robotshop/rs-dispatch:latest",
+        "image": "eComshop/rs-dispatch:latest",
         "forcePullImage": false,
         "privileged": false,
         "parameters": []
