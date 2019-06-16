@@ -16,8 +16,8 @@ do
     oc label node $NODE 'type=infra'
 done
 
-oc adm new-project robot-shop --node-selector='type=infra'
-oc adm policy add-role-to-user admin developer -n robot-shop
+oc adm new-project eCom-shop --node-selector='type=infra'
+oc adm policy add-role-to-user admin developer -n eCom-shop
 oc adm policy add-scc-to-user anyuid system:serviceaccount:robot-shop:default
 
 oc logout
