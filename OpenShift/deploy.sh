@@ -10,7 +10,7 @@ EUM_KEY=""
 
 echo "logging in as developer"
 oc login -u developer
-oc project robot-shop
+oc project eCom-shop
 
 # set the environment from the .env file
 for VAR in $(egrep '^[A-Z]+=' ../.env)
